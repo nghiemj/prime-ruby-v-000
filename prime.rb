@@ -4,7 +4,7 @@
   elsif (n) <= 1
     return false
   else (2..n/2).none? do |num|
-    (n) % num == 0
+    (n) % num == 0 #checking for any n
   end
  end
  end
